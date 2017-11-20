@@ -12,7 +12,7 @@ ___
 
 # Tipos de datos principales
 
-### Variables
+## Variables
 
 Las variables siempre pertenecen a un tipo de dato.
 
