@@ -12,11 +12,12 @@ ___
 
 # Tipos de datos principales
 
-~~~python
+### Variables
 
-x = 1                 #int = entero
-y = 2.3               #float = flotante
-z = "Hola mundo"      #str = string/cadena
-w = True              #bool = booleano
+Las variables siempre pertenecen a un tipo de dato.
 
-~~~
+Para imprimir por pantalla lo que deseemos usaremos: `print`
+
+![tipos-datos](./img/1-primeros-pasos/1-tipos-datos.png)
+
+### Cnversiones de tipos de datos
