@@ -1,6 +1,6 @@
 # Introducción a Python3.6
 
-![ogo portada](./img/intro/1-logo-portada.png)
+![logo portada](./img/intro/1-logo-portada.png)
 ___
 
 ## ¿Qué es Python?
@@ -13,7 +13,7 @@ Se trata de un lenguaje de programación multiparadigma, ya que soporta orientac
 
 Python fue creado a finales de los ochenta2​ por ***Guido van Rossum*** en el Centro para las Matemáticas y la Informática (CWI, Centrum Wiskunde & Informatica), en los Países Bajos.
 
-
+![creador](./img/intro/2-creador.png)
 
 ### Filosofía de Python
 
