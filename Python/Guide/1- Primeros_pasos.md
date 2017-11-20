@@ -20,7 +20,7 @@ Para imprimir por pantalla lo que deseemos usaremos: `print`
 
 ![tipos-datos](./img/1-primeros-pasos/1-tipos-datos.png)
 
-### Conversiones de tipos de datos
+## Conversiones de tipos de datos
 
 - Str -> int :
 
@@ -67,6 +67,6 @@ ___
 ## Operadores compactos.
 
 En este caso veremos como compactar una operación
-> En este ejemplo veremos como x += 1  es lo mismo que x = x + 1, esto se puede hacer con otros operadores también. 
+> En este ejemplo veremos como x += 1  es lo mismo que x = x + 1, esto se puede hacer con otros operadores también.
 
 ![operador compacto](./img/1-primeros-pasos/3.7-operador-compac.png)
