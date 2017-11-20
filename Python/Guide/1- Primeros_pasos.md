@@ -20,4 +20,8 @@ Para imprimir por pantalla lo que deseemos usaremos: `print`
 
 ![tipos-datos](./img/1-primeros-pasos/1-tipos-datos.png)
 
-### Cnversiones de tipos de datos
+### Conversiones de tipos de datos
+
+- Str -> int :
+
+  ![str-int](./img/1-primeros-pasos/2.0-str-int.png)
