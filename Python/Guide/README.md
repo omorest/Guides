@@ -13,7 +13,7 @@ Se trata de un lenguaje de programación multiparadigma, ya que soporta orientac
 
 Python fue creado a finales de los ochenta2​ por ***Guido van Rossum*** en el Centro para las Matemáticas y la Informática (CWI, Centrum Wiskunde & Informatica), en los Países Bajos.
 
-![creador](./img/intro/2-creador.png)
+![creador](./img/intro/2-creador.png = 200x)
 
 ### Filosofía de Python
 
