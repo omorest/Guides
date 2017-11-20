@@ -13,9 +13,11 @@ Se trata de un lenguaje de programación multiparadigma, ya que soporta orientac
 
 Python fue creado a finales de los ochenta2​ por ***Guido van Rossum*** en el Centro para las Matemáticas y la Informática (CWI, Centrum Wiskunde & Informatica), en los Países Bajos.
 
-![creador](./img/intro/2-creador.png = 200x)
+![creador](./img/intro/2-creador.png)
 
 ### Filosofía de Python
+
+Para poder ver el ZEN de python solo tendremos que hacer: `import this`
 
 - Bello es mejor que feo.
 - Explícito es mejor que implícito.
