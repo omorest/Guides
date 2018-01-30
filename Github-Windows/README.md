@@ -16,27 +16,27 @@ Para poder usar github como lo usamos en *Linux* con claves *RSA* y con los coma
 - Una vez descargado lo ejecutaremos para empezar la instalación.
 
 - Seguiremos la instalación como en los siguientes pasos que veremos a continucación:
-> En la primera captura yo elijo esa ruta ya que tengo dos discos de almacenamiento.
+  > En la primera captura yo elijo esa ruta ya que tengo dos discos de almacenamiento.
 
-  ![1.3](./img/1.3.png)
+    ![1.3](./img/1.3.png)
 
-  ![1.4](./img/1.4.png)
+    ![1.4](./img/1.4.png)
 
-  ![1.5](./img/1.5.png)
+    ![1.5](./img/1.5.png)
 
-  ![1.6](./img/1.6.png)
+    ![1.6](./img/1.6.png)
 
-  ![1.7](./img/1.7.png)
+    ![1.7](./img/1.7.png)
 
-  ![1.8](./img/1.8.png)
+    ![1.8](./img/1.8.png)
 
-  ![1.9](./img/1.9.png)
+    ![1.9](./img/1.9.png)
 
-  ![1.10](./img/1.10.png)
+    ![1.10](./img/1.10.png)
 
-  ![1.11](./img/1.11.png)
+    ![1.11](./img/1.11.png)
 
-  ![1.12](./img/1.12.png)
+    ![1.12](./img/1.12.png)
 
 - Hecho todo esto ya estaría instalado asi que abriremos el programado llamado `Git Bash` y se nos abrira una consola.
 
