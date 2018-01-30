@@ -66,6 +66,16 @@ ___
 
 ## 3. Github con Windows
 
+### 3.1 Configuración
+
+- Para la configuración básica tendremos que ejcutar los siguientes comandos en la consola `Git Bash`:
+
+  - git config --global user.email "email"
+  - git config --global user.name "nombre"
+  - git config --global push.default simple
+
+### 3.2 Claves en Github
+
 Teniendo ya las claves creadas con nuestra consola `Git Bash` pasaremos a darle nuestra clave pública a nuestro *Github*.
 
 - Para esto En el directorio `.ssh` donde se encuentran nuestras claves ejecutaremos el comando `cat id_rsa.pub`, de esta manera veremos el contenido de la clave y lo copiamos.
@@ -101,3 +111,22 @@ ___
 ## 5. Comprobación de funcionamiento.
 
 - Para comprobar que funciona pondremos un nuevo archivo en la carpeta del repositorio o modificamos alguno para subirlo  al repositorio de *Github* desde nuestro PC windows con la herramienta `Git Bash`.
+
+- Una vez modifiquemos algo dentro de la carpeta del repositorio si ejecutamos el comando `git status` estando dentro del repositorio en la consola Git veremos que ya nos sale que se ha modificado algo.
+
+  ![5.1](./img/5.1.png)
+
+- Luego de esto ejecutaremos los comandos: `git add` junto al fichero que queremos subir y el comando `git commit -m "texto_significativo"` para añadirle como un guardado en el tiempo (como un punto de restauración).
+
+  ![5.2](./img/5.2.png)
+
+- Por último ejecutaremos el comando `git push` para subirlo.
+
+- Con esto ya tendremos lso cambios subidos.
+
+  ![5.3](./img/5.3.png)
+
+___
+___
+
+Fín del informe
