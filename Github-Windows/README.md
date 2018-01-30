@@ -73,7 +73,8 @@ ___
   - git config --global user.email "email"
   - git config --global user.name "nombre"
   - git config --global push.default simple
-```
+  ```
+
 ### 3.2 Claves en Github
 
 Teniendo ya las claves creadas con nuestra consola `Git Bash` pasaremos a darle nuestra clave pública a nuestro *Github*.
