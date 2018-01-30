@@ -7,7 +7,7 @@ ___
 ## Explicación
 
 Para poder usar github como lo usamos en *Linux* con claves *RSA* y con los comandos para subir archivos a *Github* tendremos que usar la herramienta `Git`, ya que nos proporcionará tanto todos los comandos necesarios como incluso la posibilidad de crear claves RSA debido a que funciona como una consola de *Linux*
-# 1. Instalación Git
+## 1. Instalación Git
 
 - Para poder instalar `git` en windows lo primero será ir a la página http://gitforwindows.org/ y descargarlo.
 
@@ -69,11 +69,11 @@ ___
 ### 3.1 Configuración
 
 - Para la configuración básica tendremos que ejcutar los siguientes comandos en la consola `Git Bash`:
-
+  ```
   - git config --global user.email "email"
   - git config --global user.name "nombre"
   - git config --global push.default simple
-
+```
 ### 3.2 Claves en Github
 
 Teniendo ya las claves creadas con nuestra consola `Git Bash` pasaremos a darle nuestra clave pública a nuestro *Github*.
