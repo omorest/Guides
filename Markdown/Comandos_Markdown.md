@@ -2,16 +2,19 @@ Oscar Moreira
 
 # Guía de etiquetas para Markdown
 
-## Heading 2
+## 1. Heading 2
 
 ~~~
-      Para los encabezados hasta 6 usaremos "#"
+      Para los encabezados usaremos "#" con u nmáximo de 6
+      Ejemplo: #   Heading 1
+               ##  Heading 2
+               ### Heading 3
 ~~~
 
-## Citas
+## 2. Citas
 
 ~~~
-      > Texto
+  usaremos ">" seguido de Texto
 ~~~
 
 > esto es una cita
@@ -23,9 +26,9 @@ Oscar Moreira
 
 
 
-## Listas
+## 3. Listas
 
-### Desordenadas
+### 3.1 Desordenadas
 
 ~~~
       Usamos el guión "-" más un espacio y seguido del texto
@@ -36,7 +39,7 @@ Oscar Moreira
 - Elemento 3
 
 
-### Numeradas
+### 3.2 Numeradas
 
 ~~~
       Usaremos numeracion por ejemplo: "1." más un espacio y seguido del texto
@@ -51,23 +54,23 @@ Oscar Moreira
     - Elemento 3.2
 
 
-## Separaciones
+## 4. Separaciones
 
 Esto es una separación
 ~~~
-Tres guiones bajos equivalen a un <hr> en html
+Tres guiones bajos "___" equivalen a un <hr> en html dibujando una pequeña línea
 ~~~
 ___
 
 
-## Negritas y cursivas
+## 5. Negritas y cursivas
 
 - Cursiva
 
     - *Hola mundo.*
     ~~~
     Pondremos el texto entre "*"
-    *Hola mundo*
+    Ejemplo: *Hola mundo*
     ~~~
 
 - Negrita
@@ -75,7 +78,7 @@ ___
     - **Hola mundo.**
     ~~~
     Pondremos el texto entre dos "*"
-    **Hola mundo**
+    Ejemplo: **Hola mundo**
     ~~~
 
 - Negrita y cursiva
@@ -83,14 +86,15 @@ ___
   - ***Hola mundo***
   ~~~
   Pondremos el texto entre tres "*"
-  ***Hola mundo***
+  Ejemplo: ***Hola mundo***
   ~~~
 
 ___
 ___
 
 
-## Enlaces
+## 6. Enlaces
+
 - Texto + enlace.
   - Editor Atom <https://atom.io/>
 ~~~
@@ -111,11 +115,11 @@ Texto <Link>
 
 ___
 
-## Rutas Imagenes
+## 7. Rutas Imagenes
 
 - Imagen desde un link.
 
-    ![imagenlogoatom](https://curtistimson.co.uk/images/post/atom/atom-editor-logo.jpg)
+    ![imagenlogoatom](https://www.logolynx.com/images/logolynx/52/529251d1b4dc034bee512d1e82fa67c1.png)
     ~~~
         ![Texto](Link)
     ~~~
@@ -130,7 +134,7 @@ ___
 
 ___
 
-## Código
+## 8. Código
 
 - Cajetín para código puntual.
 
@@ -138,7 +142,7 @@ ___
 
     Dar 3 tabulaciones o 4 espacios en blanco para que salga dentro de un cajetín.
 
-- Cajetín para mucho código.
+- Cajetín para código grande.
 
 ~~~
 
@@ -148,7 +152,7 @@ De esta manera incluyendo 3 virgulillas por encima y otras 3 por debajo haremos 
 
 - Resaltar código dentro de una frase.
 
-Resaltar codigo con `acentos graves`.
+  Resaltar codigo con `acentos graves`.
 
 ~~~
     `acentos graves`
@@ -156,7 +160,7 @@ Resaltar codigo con `acentos graves`.
 
 ___
 
-## Anular Markdown
+## 9. Anular Markdown
 
 Usar los símbolos de forma normal y que no se ejecuten como etiquetas.
 Solo se necesita poner la barra invertida antes
