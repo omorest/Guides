@@ -1,5 +1,3 @@
-Óscar Moreira Estévez
-
 # Github Windows y Claves RSA
 ___
   ![portada](./img/portada.png)
