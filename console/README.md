@@ -22,8 +22,6 @@ Hola mundo!! Soy Oscar Moreira
 ;)
 MacBook-Pro-de-Oscar:oscar_moreira oscarmoreira$ ls asignaturas/informatica_basica/teoria/
 mifichero.txt
-MacBook-Pro-de-Oscar:oscar_moreira oscarmoreira$ cat asignaturas/informatica_basica/teoria/
-cat: asignaturas/informatica_basica/teoria/: Is a directory
 MacBook-Pro-de-Oscar:oscar_moreira oscarmoreira$ cat asignaturas/informatica_basica/teoria/mifichero.txt
 Hola mundo!! Soy Oscar Moreira
 ;)
