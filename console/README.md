@@ -60,4 +60,9 @@ otrofichero.txt
 MacBook-Pro-de-Oscar:varios oscarmoreira$ chmod 740 otrofichero.txt
 MacBook-Pro-de-Oscar:varios oscarmoreira$ ls -l otrofichero.txt
 -rwxr-----  1 oscarmoreira  staff  34  9 oct 13:39 otrofichero.txt
+MacBook-Pro-de-Oscar:~ oscarmoreira$ cd oscar_moreira/
+MacBook-Pro-de-Oscar:oscar_moreira oscarmoreira$ find . -name *.txt
+./varios/otrofichero.txt
+./asignaturas/informatica_basica/teoria/mifichero.txt
+
 ```
