@@ -25,4 +25,6 @@
 
 - Una vez dados los permisos ya podemos usar ***iTrerm*** como una terminal normal.
 
+- Vemos como ejemplo la ejecucion del comando `pwd`que nos indicará en que directorio nos encontramos actualmente.
+
 ![5](./img/5.png)
