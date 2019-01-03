@@ -1,1 +1,1 @@
-# <center>Iterm 2
+# <center>Iterm 2</center>
