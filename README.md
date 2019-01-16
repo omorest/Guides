@@ -1,1 +1,1 @@
-# Guides for everyone .
+# Guides for everyone.
