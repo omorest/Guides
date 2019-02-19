@@ -122,4 +122,22 @@ ___
 
   ## 4.1 Creación de repositorio.
 
-  Los repositorios serán como carpetas de proyectos que crearemos en ***Github*** para guardar nuestro programa.
+  Los repositorios serán como carpetas de proyectos que crearemos en ***Github*** para guardar nuestro programa o programas, carpetas, etc...
+
+  - Iremos a nuestro ***Github*** --> *Perfil* --> *Repositories*.
+
+  - Una vez aquí dentro clicaremos en `new` para crear un nuevo repositorio.
+
+    ![1-repo](./img/1-crear-repo.png)
+
+  - Ahora le pondremos un nombre al repositorio, elegiremos si lo queremos público o privado, y marcaremos la casilla de inicializar con un *README*.
+
+    ![2-repo](./img/2-crear-repo.png)
+
+  - Hecho esto veremos que nos lleva directamente el repositorio creado.
+
+    ![3-repo](./img/3-crear-repo.png)
+
+  - Si volvemos a nuestro `perfil/repositories` veremos que esta creado.
+
+    ![4-repo](./img/4-crear-repo.png)
