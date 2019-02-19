@@ -124,7 +124,7 @@ ___
 
   Los repositorios serán como carpetas de proyectos que crearemos en ***Github*** para guardar nuestro programa o programas, carpetas, etc...
 
-  > Nota: en la version gratuita de Github tendremos repositorios ilimitados tanto públicos como privados.
+  > Nota: en la versión gratuita de Github tendremos repositorios ilimitados tanto públicos como privados.
 
   - Iremos a nuestro ***Github*** --> *Perfil* --> *Repositories*.
 
@@ -134,7 +134,7 @@ ___
 
   - Ahora le pondremos un nombre al repositorio, elegiremos si lo queremos público o privado, y marcaremos la casilla de inicializar con un *README*.
 
-  > Nota: los repositorios privados solo podran tener 3 colaboradores con la version gratis de github.
+  > Nota: los repositorios privados solo podran tener 3 colaboradores con la versión gratis de github.
 
     ![2-repo](./img/2-crear-repo.png)
 
