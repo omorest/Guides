@@ -17,7 +17,8 @@
 ---
 ---
 
-## 1. Instalación de Git <a name = "id1"></a>
+<a name = "id1"></a>
+## 1. Instalación de Git
 
 Lo primero que haremos será instalar git en nuestro ordenador.
 
@@ -36,6 +37,7 @@ Lo primero que haremos será instalar git en nuestro ordenador.
 
 ---
 
+<a name = "id2"></a>
 ## 2. Configuración de Git
 
 Una vez instalado Git en nuestro ordenador pasaremos a configurarlo, solo tendremos que ejecutar 3 comandos en la terminal:
@@ -48,6 +50,7 @@ Una vez instalado Git en nuestro ordenador pasaremos a configurarlo, solo tendre
 
 ___
 
+<a name = "id3"></a>
 ## 3. Creación de claves pública/privada
 
 Ahora lo que haremos en la configuración de github en nuestro PC *(linux / mac)* será crear una clave publica y privada para así cuando queramos subir algun archivo no sea necesario poner la contraseña.
@@ -113,6 +116,8 @@ Con esto ya tendriamos toda la configuración hecha de nuestro github con nuestr
 
 ___
 
+
+<a name = "id4"></a>
 ## 4. Uso básico de Git con github
 
   ## 4.1 Creación de repositorio.
