@@ -120,7 +120,7 @@ ___
 <a name = "id4"></a>
 ## 4. Uso básico de Git con github
 
-## 4.1 Creación de repositorio.
+### 4.1 Creación de repositorio.
 
   Los repositorios serán como carpetas de proyectos que crearemos en ***Github*** para guardar nuestro programa o programas, carpetas, etc...
 
