@@ -6,11 +6,18 @@
 
 # Índice
 
+  1. [Instalación de Git](#id1)
+
+  2. [Configuración de Git](#id2)
+
+  3. [Creación de claves pública/privada](#id3)
+
+  4. [Uso básico de Git con github](#id4)
 
 ---
 ---
 
-## 1. Instalación de Git
+## 1. Instalación de Git <a name = "id1"></a>
 
 Lo primero que haremos será instalar git en nuestro ordenador.
 
@@ -43,7 +50,7 @@ ___
 
 ## 3. Creación de claves pública/privada
 
-Ahora haremos en la configuración de github en nuestro PC *(linux / mac)* será crear una clave publica y privada para así cuando queramos subir algun archivo no sea necesario poner la contraseña.
+Ahora lo que haremos en la configuración de github en nuestro PC *(linux / mac)* será crear una clave publica y privada para así cuando queramos subir algun archivo no sea necesario poner la contraseña.
 
 - Abriremos la terminal de comandos y ejecutaremos el siguiente comando: `ssh-keygen`
 
@@ -106,7 +113,7 @@ Con esto ya tendriamos toda la configuración hecha de nuestro github con nuestr
 
 ___
 
-## 4. Uso sencillo de Git con github
+## 4. Uso básico de Git con github
 
   ## 4.1 Creación de repositorio.
 
