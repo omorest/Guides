@@ -6,13 +6,13 @@
 
 # Índice
 
-  1. [Instalación de Git](#id1)
+1. [Instalación de Git](#id1)
 
-  2. [Configuración de Git](#id2)
+2. [Configuración de Git](#id2)
 
-  3. [Creación de claves pública/privada](#id3)
+3. [Creación de claves pública/privada](#id3)
 
-  4. [Uso básico de Git con github](#id4)
+4. [Uso básico de Git con github](#id4)
 
   4.1. [Creación de repositorio](#id4.1)
 
