@@ -145,3 +145,41 @@ ___
   - Si volvemos a nuestro `perfil/repositories` veremos que esta creado.
 
     ![4-repo](./img/4-crear-repo.png)
+
+---
+
+### 4.2 Clonar repositorio
+
+Cuando hablamos de clonar un repositorio es copiarlo en tu ordenador de forma que este sincronizado y cuando hagas un cambio en tu ordenador puedas subir esos cambias o descargar cambios realizados que esten en Github pero no en tu ordenador.
+
+- Iremos al repositorio que queremos clonar, y clicamos en `clone or download` y copiamos el enlace que nos sale.
+
+  > Si copiamos el https nos obligara a poner el usuario y la contraseña siempre, en cambio con el ssh detectare que tenemos configurado las claves públicas y privadas y no hará falta introducir los datos.
+
+  ![clone](./img/clone-repo.png)
+
+
+- Ahora abriremos la terminal  e iremos al directorio donde queremos tener el clonado y ejecutaremos el comando: `git clone git@github....`
+
+  ~~~console
+  MacBook-Pro-de-Oscar:Documents oscarmoreira$ ls
+  github
+  MacBook-Pro-de-Oscar:Documents oscarmoreira$ cd github/
+  MacBook-Pro-de-Oscar:github oscarmoreira$ git clone git@github.com:omorest/prueba.git
+  Cloning into 'prueba'...
+  remote: Enumerating objects: 3, done.
+  remote: Counting objects: 100% (3/3), done.
+  remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+  Receiving objects: 100% (3/3), done.
+
+  MacBook-Pro-de-Oscar:github oscarmoreira$ ls
+  Guides	prueba
+  MacBook-Pro-de-Oscar:github oscarmoreira$ cd prueba/
+  MacBook-Pro-de-Oscar:prueba oscarmoreira$ ls
+  README.md
+  MacBook-Pro-de-Oscar:prueba oscarmoreira$ cat README.md
+  # prueba
+  repositorio de prueba para guía
+  ~~~
+
+Como vemos ya con estos dos simples pasos tenemos clonado el repositorio en nuestro ordenador de tal forma que siempre tendremos los archivos tanto en ***GitHub*** como en nuestro ordenador.
