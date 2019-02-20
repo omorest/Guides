@@ -14,6 +14,12 @@
 
   4. [Uso básico de Git con github](#id4)
 
+    4.1. [Creación de repositorio](#id4.1)
+
+    4.2. [Clonar repositorio](#id4.2)
+
+    4.3. [Comandos principales para uso](#id4.3)
+
 ---
 ---
 
@@ -120,6 +126,7 @@ ___
 <a name = "id4"></a>
 ## 4. Uso básico de Git con github
 
+<a name = "id4.1"></a>
 ### 4.1 Creación de repositorio.
 
   Los repositorios serán como carpetas de proyectos que crearemos en ***Github*** para guardar nuestro programa o programas, carpetas, etc...
@@ -148,6 +155,7 @@ ___
 
 ---
 
+<a name = "id4.2"></a>
 ### 4.2 Clonar repositorio
 
 Cuando hablamos de clonar un repositorio es copiarlo en tu ordenador de forma que este sincronizado y cuando hagas un cambio en tu ordenador puedas subir esos cambias o descargar cambios realizados que esten en Github pero no en tu ordenador.
@@ -160,6 +168,8 @@ Cuando hablamos de clonar un repositorio es copiarlo en tu ordenador de forma qu
 
 
 - Ahora abriremos la terminal  e iremos al directorio donde queremos tener el clonado y ejecutaremos el comando: `git clone git@github....`
+
+  > Consejo: crear una carpeta llamada github en tu ordenador y dentro meter los repositorios.
 
   ~~~console
   MacBook-Pro-de-Oscar:Documents oscarmoreira$ ls
@@ -183,3 +193,23 @@ Cuando hablamos de clonar un repositorio es copiarlo en tu ordenador de forma qu
   ~~~
 
 Como vemos ya con estos dos simples pasos tenemos clonado el repositorio en nuestro ordenador de tal forma que siempre tendremos los archivos tanto en ***GitHub*** como en nuestro ordenador.
+
+
+---
+
+<a name = "id4.3"></a>
+### 4.3 Comandos principales para uso
+
+En este apartado veremos los comandos principales que usaremos para poder subir los ficheros o descargar de ***GitHub***.
+
+  > Estos comandos se deben ejecutar en la terminal estando dentro del directorio del repositorio.
+
+  - `git status` : comprobar si hay ficheros aún por subir al repositorio de Github. Si no se han subido saldrá una lista de los ficheros en los que han habido cambios.
+
+  - `git add fichero o ruta` : añadir el fichero que se ha modificado para subirlo a github.
+
+  - `git commit -m "comentario"` : comando para poner un comentario sobre el cambio hecho, la version, etc...
+
+  - `git push` : Comando para subir el fichero a Github.
+
+  - `git pull` : comando para actualizar tu carpeta del repositorio del ordenador descargando los ficheros o cambios nuevos.
