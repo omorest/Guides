@@ -14,11 +14,11 @@
 
 4. [Uso básico de Git con github](#id4)
 
-  4.1. [Creación de repositorio](#id4.1)
+  - 4.1. [Creación de repositorio](#id4.1)
 
-  4.2. [Clonar repositorio](#id4.2)
+  - 4.2. [Clonar repositorio](#id4.2)
 
-  4.3. [Comandos principales para uso](#id4.3)
+  - 4.3. [Comandos principales para uso](#id4.3)
 
 ---
 ---
