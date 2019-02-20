@@ -1,4 +1,4 @@
-# Configuración de GitHub con nuestro PC (Linux / Mac)
+# Configuración de GitHub con nuestro PC (Linux / Mac / Windows)
 
 ![portada](./img/portada.png)
 
@@ -28,18 +28,27 @@
 
 Lo primero que haremos será instalar git en nuestro ordenador.
 
-- **Linux**: desde la terminal.
+- **Linux :** desde la terminal.
 
     ~~~
       - sudo apt-get update         //Actualizamos los repositorios
       - sudo apt-get install git    //Instalamos Git
     ~~~
 
-- **Mac**:
+- **Mac :**
 
   - La forma más sencilla es usar el instalador gráfico de Git, que puedes descargar [aquí](http://sourceforge.net/projects/git-osx-installer/)
 
   - La segunda alternativa es Homebrew (http://brew.sh/). Si ya tienes instalado Homebrew, instala Git con: `brew install git`
+
+
+- **Windows :**
+
+  - ***Opción 1 :*** Si tenemos **Windows 10** podremos instalar la terminal de Ubuntu desde la *Microsoft Store* y funcionará como una terminal completa de *Linux* .
+
+  - ***Opción 2 :*** Instalar la consola de Git como en el tutorial entero que explico [aquí](https://github.com/omorest/Guides/blob/master/github/Github-Windows/README.md).
+
+    Una vez instalada se puede seguir con este tutorial.
 
 ---
 
