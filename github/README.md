@@ -136,7 +136,7 @@ ___
 
   > Nota: los repositorios privados solo podran tener 3 colaboradores con la versión gratis de Github.
 
-    ![2-repo](./img/2-crear-repo.png)
+  ![2-repo](./img/2-crear-repo.png)
 
   - Hecho esto veremos que nos lleva directamente el repositorio creado.
 
