@@ -1,4 +1,4 @@
-# Configuración de GitHub con nuestro PC (Linux / Mac / Windows)
+# Configuración de GitHub en (Linux / Mac / Windows)
 
 ![portada](./img/portada.png)
 
