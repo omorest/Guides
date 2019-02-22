@@ -1,4 +1,4 @@
-# Configuración de Git y GitHub en (Linux / Mac / Windows)
+# Instalación,Configuración y uso básico de Git y GitHub en (Linux / Mac / Windows)
 
 ![portada](./img/portada.png)
 
