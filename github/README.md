@@ -313,4 +313,4 @@ Finalmente tendremos nuestro fichero subido en nuestro *GitHub* como vemos.
 
 Si entramos en el fichero veremos el texto creado.
 
-![upload2](./img/upload2.png)
+![upload2](./img/upload2.png) 
