@@ -223,7 +223,9 @@ En este apartado veremos los comandos principales que usaremos para poder subir 
 
   - `git pull` : comando para actualizar tu carpeta del repositorio del ordenador descargando los ficheros o cambios nuevos.
 
+
   ---
+
   #### Ejemplo uso comandos básicos
 
   Veremos el caso desde un repositorio que creamos de prueba en el que subiremos algun fichero para ver el uso de los comandos anteriormente explicados.
@@ -243,7 +245,7 @@ En este apartado veremos los comandos principales que usaremos para poder subir 
       En el caso de que si hubiesemos modificadoun fichero, insertado algo nuevo o incluso eliminado veremos como nos avisará de estos cambios realizados.
 
       ```console
-      oscarmoreira@MacBook-Pro-de-Oscar:~/Documents/github/repo_prueba$ echo "Hola mundo" > prueba.txt
+      oscarmoreira@MacBook-Pro-de-Oscar:~/Documents/github/repo_prueba$ echo "Hola Mundo esto es un texto de prueba" > prueba.txt
 
       oscarmoreira@MacBook-Pro-de-Oscar:~/Documents/github/repo_prueba$ ls
 
@@ -251,7 +253,7 @@ En este apartado veremos los comandos principales que usaremos para poder subir 
 
       oscarmoreira@MacBook-Pro-de-Oscar:~/Documents/github/repo_prueba$ cat prueba.txt
 
-      Hola mundo
+      Hola Mundo esto es un texto de prueba
 
       oscarmoreira@MacBook-Pro-de-Oscar:~/Documents/github/repo_prueba$ git status
 
@@ -266,3 +268,49 @@ En este apartado veremos los comandos principales que usaremos para poder subir 
       nothing added to commit but untracked files present (use "git add" to track)
 
       ```
+
+  - `git add` :
+
+    Una vez visto que hemos hecho cambios lo que haremos será añadir los que queramos para subirlos mas adelante.
+
+    ```console
+
+          oscarmoreira@MacBook-Pro-de-Oscar:~/Documents/github/repo_prueba$ git add prueba.txt
+    ```
+
+  - `git commit -m "comentario" `:
+
+    Una vez añadidos los ficheros que queramos subir lo que haremos será crearle un commit("una especia de *ID* para la versión que subimos") y le pondremos un breve comentario para saber que tipo de modificación hemos hecho para saber en que punto de la versión estamos.
+
+    ```console
+
+    oscarmoreira@MacBook-Pro-de-Oscar:~/Documents/github/repo_prueba$ git commit -m "Creación de fichero de prueba"
+
+    [master 02afe6d] Creación de fichero de prueba
+    1 file changed, 1 insertion(+), 1 deletion(-)
+    ```
+
+  - `git push`:
+
+    Por último para subirlos a nuestro *GitHub* usaremos este comando.
+
+    ```console
+    oscarmoreira@MacBook-Pro-de-Oscar:~/Documents/github/repo_prueba$ git push
+
+    Enumerating objects: 5, done.
+    Counting objects: 100% (5/5), done.
+    Delta compression using up to 8 threads
+    Compressing objects: 100% (2/2), done.
+    Writing objects: 100% (3/3), 334 bytes | 334.00 KiB/s, done.
+    Total 3 (delta 0), reused 0 (delta 0)
+    To github.com:omorest/repo_prueba.git
+     8df6359..02afe6d  master -> master
+    ```
+
+Finalmente tendremos nuestro fichero subido en nuestro *GitHub* como vemos.
+
+![upload1](./img/upload1.png)
+
+Si entramos en el fichero veremos el texto creado.
+
+![upload2](./img/upload2.png)
