@@ -217,8 +217,52 @@ En este apartado veremos los comandos principales que usaremos para poder subir 
 
   - `git add fichero o ruta` : añadir el fichero que se ha modificado para subirlo a github.
 
-  - `git commit -m "comentario"` : comando para poner un comentario sobre el cambio hecho, la version, etc...
+  - `git commit -m "comentario"` : comando para poner un comentario sobre el cambio hecho y se le asingata un id al cambio, la version, etc...
 
   - `git push` : Comando para subir el fichero a Github.
 
   - `git pull` : comando para actualizar tu carpeta del repositorio del ordenador descargando los ficheros o cambios nuevos.
+
+  ---
+  #### Ejemplo uso comandos básicos
+
+  Veremos el caso desde un repositorio que creamos de prueba en el que subiremos algun fichero para ver el uso de los comandos anteriormente explicados.
+
+  - `git status`:
+
+      Vemos como si no hemos hecho ningún cambio en el repositorio este comando nos avisará.
+
+      ```console
+      oscarmoreira@MacBook-Pro-de-Oscar:~/Documents/github/repo_prueba$ git status
+
+        On branch master
+        Your branch is up to date with 'origin/master'.
+
+      ```
+
+      En el caso de que si hubiesemos modificadoun fichero, insertado algo nuevo o incluso eliminado veremos como nos avisará de estos cambios realizados.
+
+      ```console
+      oscarmoreira@MacBook-Pro-de-Oscar:~/Documents/github/repo_prueba$ echo "Hola mundo" > prueba.txt
+
+      oscarmoreira@MacBook-Pro-de-Oscar:~/Documents/github/repo_prueba$ ls
+
+      README.md  prueba.txt
+
+      oscarmoreira@MacBook-Pro-de-Oscar:~/Documents/github/repo_prueba$ cat prueba.txt
+
+      Hola mundo
+
+      oscarmoreira@MacBook-Pro-de-Oscar:~/Documents/github/repo_prueba$ git status
+
+      On branch master
+      Your branch is up to date with 'origin/master'.
+
+      Untracked files:
+      (use "git add <file>..." to include in what will be committed)
+
+      prueba.txt
+
+      nothing added to commit but untracked files present (use "git add" to track)
+
+      ```
