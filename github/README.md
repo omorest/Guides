@@ -309,8 +309,8 @@ En este apartado veremos los comandos principales que usaremos para poder subir 
 
 Finalmente tendremos nuestro fichero subido en nuestro *GitHub* como vemos.
 
-![upload1](./img/upload.png)
+![upload1](./img/upload1.png)
 
 Si entramos en el fichero veremos el texto creado.
 
-![upload2](./img/upload2.png) 
+![upload2](./img/upload2.png)
