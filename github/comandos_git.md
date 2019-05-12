@@ -5,7 +5,7 @@
 - **git status**
 - **git add -A**
 - **git commit -m "comentario"**
-- **git push **
+- **git push**
 
     - git push 
     - git push origin master
