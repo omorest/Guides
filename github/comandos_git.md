@@ -1,6 +1,9 @@
 # Comandos Git
  
 --- 
+
+## 1. Primeros comandos
+
 - **git init**
     ```
     Iniciamos un repositorio desde una carpeta en local
@@ -41,6 +44,11 @@
     # git reset --hard *id_commit* -> borra hasta el commit elegido y también el código
     ```
 
+---
+
+## 2. Ramas y fusiones
+
+### 2.1 Ramas
 - **git branch** 
     ```
     Nos muestra las ramas que tenemos en el repositorio y nos señala en la que estamos
@@ -55,3 +63,25 @@
     ```
     Cambiamos a la rama seleccionada
     ```
+
+- **git checkout -D nombre_rama**
+    ```
+    Creamos una rama nueva y accedemos a ella, los dos pasos anteriores en 1
+    ```
+- **git branch -D nombre_rama**
+    ```
+    Borramos la rama
+    ```
+
+### 2.2 Fusiones
+
+> La rama *Master* debe ser la que contenga el proyecto estable y las demas ramas para testear. Una vez en el testeo conseguimos lo que queremos las fusionamos
+
+Juntar rama *Master* con otra rama.
+
+
+- **git merge**
+  
+  - Nos movemos primero a la rama *Master* : `git checkout master`
+
+  - Elegimos la rama que queremos absorver: **git merge nombre_rama_absorver**
