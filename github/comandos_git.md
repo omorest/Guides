@@ -33,6 +33,13 @@
     ```
 
     
-- **`git branch` : **
+- **git branch** 
+    ```
+    Nos muestra las ramas que tenemos en el repositorio y nos señala en la que estamos
+    ```
 - **git branch nombre_rama_nueva**
+
+    ```
+    Creamos una rama nueva
+    ```
 - **git checkout nombre_rama**
