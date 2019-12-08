@@ -64,7 +64,7 @@
     Cambiamos a la rama seleccionada
     ```
 
-- **git checkout -D nombre_rama**
+- **git checkout -b nombre_rama**
     ```
     Creamos una rama nueva y accedemos a ella, los dos pasos anteriores en 1
     ```
