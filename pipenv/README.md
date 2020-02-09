@@ -7,8 +7,9 @@ Necesario python3 y pip
 
 Instalamos pipenv: `pip install pipenv`
 
-```console
+~~~console
 👽 oscarmoreira@MacBook-Pro-de-Oscar:~ $ pip install pipenv
+
 Collecting pipenv
   Using cached pipenv-2018.11.26-py3-none-any.whl (5.2 MB)
 Requirement already satisfied: certifi in /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages (from pipenv) (2019.3.9)
@@ -19,4 +20,4 @@ Requirement already satisfied: virtualenv in /Library/Frameworks/Python.framewor
 Installing collected packages: pipenv
 Successfully installed pipenv-2018.11.26
 
-```
+~~~
