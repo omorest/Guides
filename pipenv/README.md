@@ -8,7 +8,7 @@ Necesario python3 y pip
 Instalamos pipenv: `pip install pipenv`
 
 ~~~console
-👽 oscarmoreira@MacBook-Pro-de-Oscar:~ $ pip install pipenv
+👽 oscarmoreira@MacBook-Pro-de-Oscar:~$ pip install pipenv
 
 Collecting pipenv
   Using cached pipenv-2018.11.26-py3-none-any.whl (5.2 MB)
