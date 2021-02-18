@@ -34,8 +34,6 @@ ___
 
 - Ahora ya tendremos toda nuestra configuración en la nube para sincronizar con otro dispositivo
 
-  ![sincronizado pc1](./img/6_1.png)
-
 <br>
 
 ## Configurando Segundo Dispositivo
