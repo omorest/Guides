@@ -32,7 +32,17 @@ ___
 
   ![nav to editor](./img/6.png)
 
-- Ahora ya tendremos toda nuestra configuración en la nube para sincronizar con otro dispositivo
+- Ahora ya tendremos toda nuestra configuración en la nube para sincronizar con otro dispositivo.
+
+- Si volvemos a ir a la configuración de sincronización veremos que nos saldrá una ventana para seleccionar que hacer con la sincronización.
+
+  ![opcion sync](./img/1.png)
+
+
+- Iremos ala opción de `Show Synced Data` y veremos un listado del historial de configuración guardado y listo para sincronizar conotro dispositivo.
+
+  ![opcion sync](./img/7.png)
+
 
 <br>
 
