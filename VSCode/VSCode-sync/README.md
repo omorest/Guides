@@ -85,3 +85,10 @@ Esto se usará de la siguiente manera:
 Si queremos volver a una configuración pasada simplemente tendremos elegir la carpeta que deseemos del momento que queramos recuperar y darle a la flecha de restaurar que nos saldrá a la derecha y ya lo tendremos.
 
   ![restaurar](./img/14.png)
+
+
+## Documentación de Microsoft
+
+Les dejo la documentación para realizar estos pasos que ofrece Microsoft.
+
+Enlace: https://code.visualstudio.com/docs/editor/settings-sync
